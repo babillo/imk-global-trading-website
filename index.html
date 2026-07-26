@@ -497,9 +497,8 @@
   const grid = document.getElementById('productGrid');
   grid.innerHTML = products.map(p => `
     <div class="product-card">
-      <div class="icon-frame">${p.icon}</div>
+      <div class="icon-frame">${p.photo ? `<img src="${p.photo}" alt="${p.name}">` : p.icon}</div>
       <div class="product-body">
-        <div class="icon-frame">${p.photo ? `<img src="${p.photo}" alt="${p.name}">` : p.icon}</div>
         <h3>${p.name}</h3>
         <p>${p.desc}</p>
         <div class="product-foot"><span>MOQ</span><span>${p.moq}</span></div>
