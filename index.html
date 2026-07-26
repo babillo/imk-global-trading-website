@@ -6,23 +6,33 @@
 <style>
   body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: #0f2d1f;
     color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
   }
-  h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-  p { color: #cde; }
+  img { width: 140px; height: 140px; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+  p.tagline { color: #cde; margin-bottom: 2rem; }
+  .contact { font-size: 1rem; line-height: 1.8; }
+  .contact a { color: #7fd1ff; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
-  <div>
-    <h1>IMK Global Trading</h1>
-    <p>Our new website is coming soon.</p>
+  <img src="logo.png" alt="IMK Global Trading logo">
+  <h1>IMK Global Trading</h1>
+  <p class="tagline">Our new website is coming soon.</p>
+  <div class="contact">
+    Email: <a href="mailto:contact@imkglobaltrading.com">contact@imkglobaltrading.com</a><br>
+    WhatsApp: <a href="https://wa.me/2349033184457" target="_blank">+234 903 318 4457</a>
   </div>
 </body>
 </html>
