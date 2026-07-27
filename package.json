@@ -1,0 +1,14 @@
+{
+  "name": "imk-global-trading-website",
+  "version": "1.0.0",
+  "description": "IMK Global Trading website",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {}
+}
